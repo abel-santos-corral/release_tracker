@@ -1,0 +1,44 @@
+{
+    "0": {
+        "Project key": "D8BBI",
+        "Project name": "CBE",
+        "Project initials": "CBE",
+        "Project full name": "Circular Bio-based Europe",
+        "Component prefix": "cbe_"
+    },
+    "1": {
+        "Project key": "ELA",
+        "Project name": "ELA",
+        "Project initials": "ELA",
+        "Project full name": "European Labour Authority",
+        "Component prefix": "ela_"
+    },
+    "2": {
+        "Project key": "D8EPPO",
+        "Project name": "D9T-EPPO",
+        "Project initials": "EPPO",
+        "Project full name": "European Public Prosecutor's Office",
+        "Component prefix": "eppo_"
+    },
+    "3": {
+        "Project key": "ERATRANS",
+        "Project name": "D9-ERA",
+        "Project initials": "ERA",
+        "Project full name": "European Union Agency for Railways",
+        "Component prefix": "era_"
+    },
+    "4": {
+        "Project key": "EPHEH",
+        "Project name": "EP-HEH",
+        "Project initials": "HEH",
+        "Project full name": "House of European History",
+        "Component prefix": "heh_"
+    },
+    "5": {
+        "Project key": "D8UPD",
+        "Project name": "D8-UPD",
+        "Project initials": "UPD",
+        "Project full name": "Veterinary Medicines",
+        "Component prefix": "upd_"
+    }
+}

@@ -1,0 +1,49 @@
+.
+├── application
+│   ├── analyzer_controller.py
+│   ├── cleaner_controller.py
+│   ├── cleaner_service.py
+│   ├── csv_service.py
+│   ├── extractor_controller.py
+│   ├── extractor_service.py
+│   ├── file_management_service.py
+│   ├── __init__.py
+│   └── project_service.py
+├── data
+│   ├── config
+│   │   └── project.json
+│   └── output
+│       ├── release_2170_2025-03-04T17_11_16+0100_report.md
+│       ├── release_2180_2025-03-04T17_02_45+0100_report.md
+│       └── release_2190_2025-03-04T17_03_43+0100_report.md
+├── docker-compose.yml
+├── Dockerfile
+├── domain
+│   ├── models
+│   │   ├── __init__.py
+│   │   └── project.py
+│   └── services
+│       ├── data_processing_service.py
+│       ├── __init__.py
+│       ├── report_generation_service.py
+│       └── templates
+│           ├── component_report_template.md
+│           ├── empty_components_report_template.md
+│           ├── estimates_report_template.md
+│           ├── header_report_template.md
+│           ├── no_estimates_report_template.md
+│           ├── no_progress_report_template.md
+│           ├── progress_report_template.md
+│           ├── report_template.md
+│           └── tickets_report_template.md
+├── presentation
+│   ├── __init__.py
+│   └── main.py
+├── readme.txt
+├── requirements.txt
+└── tests
+    ├── fixtures
+    │   ├── project_empty.json
+    │   └── project.json
+    ├── test_project.py
+    └── test_project_service.py

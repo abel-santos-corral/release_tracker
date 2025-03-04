@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"  # Change the host port to 8080 or any other available port
+    volumes:
+      - ./data/input:/app/data/input
+    environment:
+      - NAME=World
